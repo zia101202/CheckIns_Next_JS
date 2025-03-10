@@ -100,7 +100,7 @@ const GetCheckin = ({ reload }) => {
                 <CardMedia
                   component="img"
                   height="140"
-                  image={checkin.imagePath || "https://via.placeholder.com/150"}
+                  image={checkin.imageUrl || "https://via.placeholder.com/150"}
                   alt={checkin.title}
                   sx={{ borderRadius: 6 }}
                 />
